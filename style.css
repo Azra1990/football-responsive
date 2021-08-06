@@ -196,6 +196,7 @@ margin-top: 50px;
         display: flex;
         flex-direction: column;
         margin-left: 0;
+        width: 100%;
     }
     .head-aling{
        
@@ -219,18 +220,17 @@ margin-top: 50px;
     .header-img , .header-2{
         margin-top:0 ;
         padding-left: 0;
+        width: 100%;
        
     }
     .transform:hover .header-img {
         transform: scale(1.1);
         transition: transform 2s;
     }
-   .header-img img{
-       width: 100%;
-   }
+   
+   
     .copa-box .match-img img{
         width: 100%;
-    }
-    
-    
-}
+    }   
+} 
+
