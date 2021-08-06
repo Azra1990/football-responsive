@@ -1,0 +1,163 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* font styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+p{
+    color: gray;
+}
+/* header styles */
+.header{
+    height: 420px;
+    background-color:rgb(36, 36, 112);
+}
+.header-box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.head-aling{
+    width: 1160px;
+height: 44px;
+border: 2px solid red;
+margin-left: 50px;
+
+display: flex;
+flex-direction: row;
+}
+.head-item{
+    display: flex;
+flex-direction: row;
+align-items: flex-end;
+
+}
+.left-part a{
+    margin-left: 10px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+.fa-sign-in-alt.color{
+    color: white;
+}
+.button-color{
+    background-color: rgb(250, 72, 131);
+    padding: 5px 10px;
+    border: 0;
+}
+.button-color a{
+    color: white;
+    
+    text-decoration: none;
+    
+}
+.right-side{
+    margin-left: 500px;
+}
+.header-text {
+    
+    width: 300px;
+    height: 309px;
+    border: 2px solid red;
+    margin-top: 30px;
+}
+.header-img img{
+    width: 400px;
+    height: 312px;
+}
+.image-2 img{
+    width: 400px;
+    height: 312px;
+}
+.header-img , .header-2{
+    margin-top:30px ;
+    padding-left: 30px;
+   
+}
+.transform{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.transform:hover .header-img {
+    transform: scale(1.3);
+    transition: transform 3s;
+}
+/* players images and info */
+.container{
+    border: 2px solid green;
+    width: 1060px;
+    margin-left: 130px;
+    margin-top: 70px;
+    background-color:#FFFFFF;
+    
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 15px;
+   
+    
+}
+.player-box{
+    border: 2px solid red;
+    margin-left: 8px;
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   
+   
+    
+}
+.player-box .player img{
+    width: 320px;
+    height: 227px;
+}
+.box-item{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+/* copa-america style */
+.copa-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.copa-america{
+    margin-top: 165px;
+}
+.copa-text{
+    width: 420px;
+    height: 309px;
+    padding-top: 40px;
+    border: 2px solid indianred;
+}
+
+.copa-box .match-img img{
+    width: 567px;
+height: 427px;
+}
+/* footer style */
+.foot-sec{
+    width: 483.87px;
+height: 213px;
+margin-left: 450px;
+border: 2px solid orangered;
+}
+.foot-logo img {
+    height: 70px;
+}
+.foot-logo{
+    margin-left: 100px;
+}
+.social-logo{
+    margin-left: 200px;
+}
+.small-text{
+    margin-left: 150px;
+}
